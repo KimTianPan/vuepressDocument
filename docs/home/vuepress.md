@@ -30,7 +30,7 @@ npm init -y
 
 ![](/项目目录图片.png)
 
-config.js 代码
+#### config.js 代码 文件中配置网站标题、描述、主题等信息
 
 ```javascript
 module.exports = {
@@ -70,7 +70,7 @@ module.exports = {
 }
 ```
 
-README.md 代码
+#### README.md 代码
 
 ```
 ---
@@ -87,3 +87,36 @@ features:
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 ```
+
+#### 在 package.json 文件里添加两个启动命令
+
+```JavaScript
+"scripts": {
+  "dev": "vuepress dev docs",
+  "build": "vuepress build docs"
+}
+```
+
+#### 一切就绪跑起来看看吧
+
+npm run dev
+
+
+
+
+## 部署上线
+
+一般来说，有两种方案可供选择：
+
+1.自己买一个服务器，阿里云、腾讯云等，这种方式的好处是速度有保证、可以被搜索引擎收录，坏处是要花钱啊 moneybag 土豪同学可以考虑。
+
+2.使用 Github Pages 。什么是 Github Pages 呢？简单说就是 Github 提供的、用于搭建个人网站的静态站点托管服务。很多人用它搭建个人博客。这种方式的好处是免费、方便，坏处是速度可能会有些慢、不能被国内的搜索引擎收录。
+最终我选择了方案 2，下面将给大家讲解如何使用 Github Pages 服务
+
+#### 登录 <a href="https://github.com/" target='_blank'>GitHub</a>
+
+打开 github 网站，登陆自己的 github 账号（没有账号的快去注册并面壁思过作为一个优秀的程序员为啥连一个 github 账号都没有）
+
+接着我们新建两个仓库，
+
+### 新建仓库一： USERNAME.github.io （不用克隆到本地）

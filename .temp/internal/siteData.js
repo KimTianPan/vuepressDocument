@@ -8,14 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "我是基础 react",
-      "frontmatter": {},
-      "regularPath": "/React/reactBase.html",
-      "relativePath": "React/reactBase.md",
-      "key": "v-31d75ae6",
-      "path": "/React/reactBase.html"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -52,26 +44,12 @@ export const siteData = {
       "path": "/React/"
     },
     {
+      "title": "我是基础 react",
       "frontmatter": {},
-      "regularPath": "/home/",
-      "relativePath": "home/README.md",
-      "key": "v-7e56ceeb",
-      "path": "/home/"
-    },
-    {
-      "title": "我只想是试试",
-      "frontmatter": {},
-      "regularPath": "/pages/html/html2.html",
-      "relativePath": "pages/html/html2.md",
-      "key": "v-8a45ce3a",
-      "path": "/pages/html/html2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "我只想是试试",
-          "slug": "我只想是试试"
-        }
-      ]
+      "regularPath": "/React/reactBase.html",
+      "relativePath": "React/reactBase.md",
+      "key": "v-31d75ae6",
+      "path": "/React/reactBase.html"
     },
     {
       "title": "关于Vue下组件引入第三方外部外链Js几种方式",
@@ -102,6 +80,13 @@ export const siteData = {
           "slug": "threejs"
         }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/home/",
+      "relativePath": "home/README.md",
+      "key": "v-7e56ceeb",
+      "path": "/home/"
     },
     {
       "title": "前言",
@@ -140,6 +125,31 @@ export const siteData = {
           "level": 3,
           "title": "创建文件夹",
           "slug": "创建文件夹"
+        },
+        {
+          "level": 2,
+          "title": "部署上线",
+          "slug": "部署上线"
+        },
+        {
+          "level": 3,
+          "title": "新建仓库一： USERNAME.github.io （不用克隆到本地）",
+          "slug": "新建仓库一：-username-github-io-（不用克隆到本地）"
+        }
+      ]
+    },
+    {
+      "title": "我只想是试试",
+      "frontmatter": {},
+      "regularPath": "/pages/html/html2.html",
+      "relativePath": "pages/html/html2.md",
+      "key": "v-8a45ce3a",
+      "path": "/pages/html/html2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "我只想是试试",
+          "slug": "我只想是试试"
         }
       ]
     }
