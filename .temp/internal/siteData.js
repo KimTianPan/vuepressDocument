@@ -8,6 +8,14 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "title": "react",
+      "frontmatter": {},
+      "regularPath": "/React/",
+      "relativePath": "React/README.md",
+      "key": "v-6648a1b5",
+      "path": "/React/"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -36,50 +44,12 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "react",
-      "frontmatter": {},
-      "regularPath": "/React/",
-      "relativePath": "React/README.md",
-      "key": "v-6648a1b5",
-      "path": "/React/"
-    },
-    {
       "title": "我是基础 react",
       "frontmatter": {},
       "regularPath": "/React/reactBase.html",
       "relativePath": "React/reactBase.md",
       "key": "v-31d75ae6",
       "path": "/React/reactBase.html"
-    },
-    {
-      "title": "关于Vue下组件引入第三方外部外链Js几种方式",
-      "frontmatter": {},
-      "regularPath": "/pages/html/html.html",
-      "relativePath": "pages/html/html.md",
-      "key": "v-a436d7da",
-      "path": "/pages/html/html.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于Vue下组件引入第三方外部外链Js几种方式",
-          "slug": "关于vue下组件引入第三方外部外链js几种方式"
-        },
-        {
-          "level": 2,
-          "title": "nginx一键配置",
-          "slug": "nginx一键配置"
-        },
-        {
-          "level": 2,
-          "title": "lodash按需加载",
-          "slug": "lodash按需加载"
-        },
-        {
-          "level": 2,
-          "title": "threeJs",
-          "slug": "threejs"
-        }
-      ]
     },
     {
       "frontmatter": {},
@@ -135,6 +105,26 @@ export const siteData = {
           "level": 3,
           "title": "新建仓库一： USERNAME.github.io （不用克隆到本地）",
           "slug": "新建仓库一：-username-github-io-（不用克隆到本地）"
+        },
+        {
+          "level": 3,
+          "title": "新建仓库二 : 随便起一个项目名字,比如 myVuepress (克隆岛本地)",
+          "slug": "新建仓库二-随便起一个项目名字-比如-myvuepress-克隆岛本地"
+        },
+        {
+          "level": 3,
+          "title": "修改仓库二中的 deploy.sh 发布",
+          "slug": "修改仓库二中的-deploy-sh-发布"
+        },
+        {
+          "level": 3,
+          "title": "在 package.json 文件中添加发布命令 (使用工具包的请忽略)",
+          "slug": "在-package-json-文件中添加发布命令-使用工具包的请忽略"
+        },
+        {
+          "level": 3,
+          "title": "npm run deploy",
+          "slug": "npm-run-deploy"
         }
       ]
     },
@@ -150,6 +140,36 @@ export const siteData = {
           "level": 2,
           "title": "我只想是试试",
           "slug": "我只想是试试"
+        }
+      ]
+    },
+    {
+      "title": "关于Vue下组件引入第三方外部外链Js几种方式",
+      "frontmatter": {},
+      "regularPath": "/pages/html/html.html",
+      "relativePath": "pages/html/html.md",
+      "key": "v-a436d7da",
+      "path": "/pages/html/html.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于Vue下组件引入第三方外部外链Js几种方式",
+          "slug": "关于vue下组件引入第三方外部外链js几种方式"
+        },
+        {
+          "level": 2,
+          "title": "nginx一键配置",
+          "slug": "nginx一键配置"
+        },
+        {
+          "level": 2,
+          "title": "lodash按需加载",
+          "slug": "lodash按需加载"
+        },
+        {
+          "level": 2,
+          "title": "threeJs",
+          "slug": "threejs"
         }
       ]
     }

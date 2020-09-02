@@ -120,3 +120,78 @@ npm run dev
 接着我们新建两个仓库，
 
 ### 新建仓库一： USERNAME.github.io （不用克隆到本地）
+
+::: warning 注意
+注意！
+USERNAME 必须是你 Github 的账号名称，不要瞎起，要保证和Github账号名一模一样！
+:::
+
+例如我的 GitHub 账号名称是 KimTianpanpan
+
+![](/gitUserName.png)
+
+新建仓库, Repository name 就填写为 kimtianpan.github.io (因为在这之前我建立过仓库了,所以有此提示)
+
+![](/gitHub建立仓库.png)
+
+这个仓库建好后不用克隆到本地, 内容放到另外一个仓库中去
+
+### 新建仓库二 : 随便起一个项目名字,比如 myVuepress (克隆岛本地)
+
+这个项目就是开发博客的
+
+自己从头搭建,将 vuepressDemo 文件夹的内容拷贝到仓库二中,并且在根目录下创建 deploy.sh 文件 , 内容如下:
+
+``` 
+#!/usr/bin/env sh
+
+# 确保脚本抛出遇到的错误
+set -e
+
+# 生成静态文件
+npm run build
+
+# 进入生成的文件夹
+cd docs/.vuepress/dist
+
+# 如果是发布到自定义域名
+# echo 'www.yourwebsite.com' > CNAME
+
+git init
+git add -A
+git commit -m 'deploy'
+
+# 如果你想要部署到 https://USERNAME.github.io
+git push -f git@github.com:USERNAME/USERNAME.github.io.git master
+
+# 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
+# git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages
+
+cd -
+```
+
+### 修改仓库二中的 deploy.sh 发布
+
+把文件中的 USERNAME 改成 Github 账号名 , 例如我账号名称是  KimTianPan ,那么就改为 
+
+git push -f git@github.com:KimTianPan/kimtianpan.github.io.git master
+
+这样仓库二和仓库一就建立了关联。
+
+简单说二者的关系是：仓库一负责显示网站内容，我们不需要改动它；日常开发和新增内容，都在仓库二中，并通过 npm run deploy 命令，将代码发布到仓库一。
+
+### 在 package.json 文件中添加发布命令 (使用工具包的请忽略)
+
+"scripts": {
+  "deploy": "bash deploy.sh"
+}
+
+### npm run deploy
+
+此时打开 Github Settings 中下面的链接: https://kimtianpan.github.io/ 即可看到自己的主页啦~
+
+![](/git网址.png)
+
+pc的样子
+
+![](/首页.png)
