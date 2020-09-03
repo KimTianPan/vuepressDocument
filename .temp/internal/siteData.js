@@ -36,22 +36,6 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "react",
-      "frontmatter": {},
-      "regularPath": "/React/",
-      "relativePath": "React/README.md",
-      "key": "v-6648a1b5",
-      "path": "/React/"
-    },
-    {
-      "title": "我是基础 react",
-      "frontmatter": {},
-      "regularPath": "/React/reactBase.html",
-      "relativePath": "React/reactBase.md",
-      "key": "v-31d75ae6",
-      "path": "/React/reactBase.html"
-    },
-    {
       "title": "开发前所需了解",
       "frontmatter": {},
       "regularPath": "/company/",
@@ -70,6 +54,13 @@ export const siteData = {
           "slug": "react"
         }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/home/",
+      "relativePath": "home/README.md",
+      "key": "v-7e56ceeb",
+      "path": "/home/"
     },
     {
       "title": "前言",
@@ -140,6 +131,11 @@ export const siteData = {
           "slug": "npm-run-deploy"
         },
         {
+          "level": 3,
+          "title": "vuepress热编译浏览器不自动更新",
+          "slug": "vuepress热编译浏览器不自动更新"
+        },
+        {
           "level": 2,
           "title": "最后",
           "slug": "最后"
@@ -147,26 +143,12 @@ export const siteData = {
       ]
     },
     {
+      "title": "react",
       "frontmatter": {},
-      "regularPath": "/home/",
-      "relativePath": "home/README.md",
-      "key": "v-7e56ceeb",
-      "path": "/home/"
-    },
-    {
-      "title": "我只想是试试",
-      "frontmatter": {},
-      "regularPath": "/pages/html/html2.html",
-      "relativePath": "pages/html/html2.md",
-      "key": "v-8a45ce3a",
-      "path": "/pages/html/html2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "我只想是试试",
-          "slug": "我只想是试试"
-        }
-      ]
+      "regularPath": "/React/",
+      "relativePath": "React/README.md",
+      "key": "v-6648a1b5",
+      "path": "/React/"
     },
     {
       "title": "关于Vue下组件引入第三方外部外链Js几种方式",
@@ -195,6 +177,29 @@ export const siteData = {
           "level": 2,
           "title": "threeJs",
           "slug": "threejs"
+        }
+      ]
+    },
+    {
+      "title": "我是基础 react",
+      "frontmatter": {},
+      "regularPath": "/React/reactBase.html",
+      "relativePath": "React/reactBase.md",
+      "key": "v-31d75ae6",
+      "path": "/React/reactBase.html"
+    },
+    {
+      "title": "我只想是试试",
+      "frontmatter": {},
+      "regularPath": "/pages/html/html2.html",
+      "relativePath": "pages/html/html2.md",
+      "key": "v-8a45ce3a",
+      "path": "/pages/html/html2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "我只想是试试",
+          "slug": "我只想是试试"
         }
       ]
     }

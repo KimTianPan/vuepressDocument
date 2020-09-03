@@ -196,6 +196,30 @@ pc的样子
 
 ![](/首页.png)
 
+### vuepress热编译浏览器不自动更新
+
+#### 问题：本地开发模式运行Vuepress 1.x 时，浏览器不能自动更新
+
+在 package.json 中将运行命令 由
+
+"dev": "vuepress dev docs"
+
+改为
+
+"dev": "vuepress dev docs --temp .temp"
+
+即可解决
+
+::: warning 注意
+附：
+因为届时运行 vuepress 会生成一个临时文件夹 .temp，可以在 .gitignore 中忽略掉该文件夹：
+:::
+
+```
+# vuepress temp file
+
+.temp
+```
 ## 最后
 你需要一些 <a href="https://ouweiya.gitbooks.io/markdown/content/" target="_black">Markdown</a>、  <a href="https://www.runoob.com/markdown/md-tutorial.html" target="_black">Markdown菜鸟教程</a> 语法的基础知识；
 
