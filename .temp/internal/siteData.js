@@ -8,54 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": null,
-        "actionText": "快速上手 →",
-        "actionLink": "/home/",
-        "features": [
-          {
-            "title": "前端道路",
-            "details": "路漫漫其修远兮，吾将上下而求索。"
-          },
-          {
-            "title": "Kim.Tian",
-            "details": "570647526@qq.com"
-          },
-          {
-            "title": "采坑之路",
-            "details": "探索。"
-          }
-        ],
-        "footer": "Copyright © 2020-present Evan You"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-a641afb0",
-      "path": "/"
-    },
-    {
-      "title": "开发前所需了解",
-      "frontmatter": {},
-      "regularPath": "/company/",
-      "relativePath": "company/README.md",
-      "key": "v-dc72158e",
-      "path": "/company/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "开发前所需了解",
-          "slug": "开发前所需了解"
-        },
-        {
-          "level": 3,
-          "title": "",
-          "slug": "react"
-        }
-      ]
-    },
-    {
       "frontmatter": {},
       "regularPath": "/home/",
       "relativePath": "home/README.md",
@@ -143,12 +95,73 @@ export const siteData = {
       ]
     },
     {
+      "title": "开发前所需了解",
+      "frontmatter": {},
+      "regularPath": "/company/",
+      "relativePath": "company/README.md",
+      "key": "v-dc72158e",
+      "path": "/company/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "开发前所需了解",
+          "slug": "开发前所需了解"
+        },
+        {
+          "level": 3,
+          "title": "",
+          "slug": "react"
+        },
+        {
+          "level": 3,
+          "title": "TS",
+          "slug": "ts"
+        }
+      ]
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": null,
+        "actionText": "快速上手 →",
+        "actionLink": "/home/",
+        "features": [
+          {
+            "title": "前端道路",
+            "details": "路漫漫其修远兮，吾将上下而求索。"
+          },
+          {
+            "title": "Kim.Tian",
+            "details": "570647526@qq.com"
+          },
+          {
+            "title": "采坑之路",
+            "details": "探索。"
+          }
+        ],
+        "footer": "Copyright © 2020-present Evan You"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-a641afb0",
+      "path": "/"
+    },
+    {
       "title": "react",
       "frontmatter": {},
       "regularPath": "/React/",
       "relativePath": "React/README.md",
       "key": "v-6648a1b5",
       "path": "/React/"
+    },
+    {
+      "title": "我是基础 react",
+      "frontmatter": {},
+      "regularPath": "/React/reactBase.html",
+      "relativePath": "React/reactBase.md",
+      "key": "v-31d75ae6",
+      "path": "/React/reactBase.html"
     },
     {
       "title": "关于Vue下组件引入第三方外部外链Js几种方式",
@@ -179,14 +192,6 @@ export const siteData = {
           "slug": "threejs"
         }
       ]
-    },
-    {
-      "title": "我是基础 react",
-      "frontmatter": {},
-      "regularPath": "/React/reactBase.html",
-      "relativePath": "React/reactBase.md",
-      "key": "v-31d75ae6",
-      "path": "/React/reactBase.html"
     },
     {
       "title": "我只想是试试",
