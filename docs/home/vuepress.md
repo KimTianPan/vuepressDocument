@@ -195,3 +195,10 @@ git push -f git@github.com:KimTianPan/kimtianpan.github.io.git master
 pc的样子
 
 ![](/首页.png)
+
+## 最后
+你需要一些 <a href="https://ouweiya.gitbooks.io/markdown/content/" target="_black">Markdown</a>、  <a href="https://www.runoob.com/markdown/md-tutorial.html" target="_black">Markdown菜鸟教程</a> 语法的基础知识；
+
+你需要一个 <a href="https://github.com/" target="_black">Github</a> 账号，并在里面创建两个 repo
+
+Github 需要添加 ssh key，遇到问题可以百度解决；

@@ -8,14 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "react",
-      "frontmatter": {},
-      "regularPath": "/React/",
-      "relativePath": "React/README.md",
-      "key": "v-6648a1b5",
-      "path": "/React/"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -44,6 +36,14 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "react",
+      "frontmatter": {},
+      "regularPath": "/React/",
+      "relativePath": "React/README.md",
+      "key": "v-6648a1b5",
+      "path": "/React/"
+    },
+    {
       "title": "我是基础 react",
       "frontmatter": {},
       "regularPath": "/React/reactBase.html",
@@ -52,11 +52,24 @@ export const siteData = {
       "path": "/React/reactBase.html"
     },
     {
+      "title": "开发前所需了解",
       "frontmatter": {},
-      "regularPath": "/home/",
-      "relativePath": "home/README.md",
-      "key": "v-7e56ceeb",
-      "path": "/home/"
+      "regularPath": "/company/",
+      "relativePath": "company/README.md",
+      "key": "v-dc72158e",
+      "path": "/company/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "开发前所需了解",
+          "slug": "开发前所需了解"
+        },
+        {
+          "level": 3,
+          "title": "",
+          "slug": "react"
+        }
+      ]
     },
     {
       "title": "前言",
@@ -125,8 +138,20 @@ export const siteData = {
           "level": 3,
           "title": "npm run deploy",
           "slug": "npm-run-deploy"
+        },
+        {
+          "level": 2,
+          "title": "最后",
+          "slug": "最后"
         }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/home/",
+      "relativePath": "home/README.md",
+      "key": "v-7e56ceeb",
+      "path": "/home/"
     },
     {
       "title": "我只想是试试",
@@ -178,22 +203,18 @@ export const siteData = {
     "searchMaxSuggestions": 10,
     "nav": [
       {
-        "text": "入门兴趣",
+        "text": "公司内部前端学习",
+        "link": "/company/"
+      },
+      {
+        "text": "搭建个人博客",
         "link": "/home/"
-      },
-      {
-        "text": "Vue",
-        "link": "/Vue/"
-      },
-      {
-        "text": "React",
-        "link": "/React/"
       }
     ],
     "sidebar": {
       "/home/": [
         {
-          "title": "入门兴趣",
+          "title": "搭建个人博客",
           "collapsable": false,
           "sidebarDepth": 1,
           "children": [
