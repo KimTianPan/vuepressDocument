@@ -9,38 +9,6 @@ import GlobalLayout from "C:\\Users\\kim\\AppData\\Local\\Yarn\\Data\\global\\no
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-7e56ceeb",
-    path: "/home/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7e56ceeb").then(next)
-    },
-  },
-  {
-    path: "/home/index.html",
-    redirect: "/home/"
-  },
-  {
-    name: "v-428c3880",
-    path: "/home/vuepress.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-428c3880").then(next)
-    },
-  },
-  {
-    name: "v-dc72158e",
-    path: "/company/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-dc72158e").then(next)
-    },
-  },
-  {
-    path: "/company/index.html",
-    redirect: "/company/"
-  },
-  {
     name: "v-a641afb0",
     path: "/",
     component: GlobalLayout,
@@ -65,12 +33,44 @@ export const routes = [
     redirect: "/React/"
   },
   {
+    name: "v-dc72158e",
+    path: "/company/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-dc72158e").then(next)
+    },
+  },
+  {
+    path: "/company/index.html",
+    redirect: "/company/"
+  },
+  {
+    name: "v-428c3880",
+    path: "/home/vuepress.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-428c3880").then(next)
+    },
+  },
+  {
     name: "v-31d75ae6",
     path: "/React/reactBase.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-31d75ae6").then(next)
     },
+  },
+  {
+    name: "v-7e56ceeb",
+    path: "/home/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7e56ceeb").then(next)
+    },
+  },
+  {
+    path: "/home/index.html",
+    redirect: "/home/"
   },
   {
     name: "v-a436d7da",
