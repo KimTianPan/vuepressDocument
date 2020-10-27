@@ -8,6 +8,13 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "frontmatter": {},
+      "regularPath": "/React/",
+      "relativePath": "React/README.md",
+      "key": "v-6648a1b5",
+      "path": "/React/"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -36,12 +43,33 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "react",
+      "title": "我是基础 react",
       "frontmatter": {},
-      "regularPath": "/React/",
-      "relativePath": "React/README.md",
-      "key": "v-6648a1b5",
-      "path": "/React/"
+      "regularPath": "/React/reactBase.html",
+      "relativePath": "React/reactBase.md",
+      "key": "v-31d75ae6",
+      "path": "/React/reactBase.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/React/reactComponents.html",
+      "relativePath": "React/reactComponents.md",
+      "key": "v-bfdf9974",
+      "path": "/React/reactComponents.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/React/reactComponents/echarts.html",
+      "relativePath": "React/reactComponents/echarts.md",
+      "key": "v-8a3ff44e",
+      "path": "/React/reactComponents/echarts.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/React/reactComponents/",
+      "relativePath": "React/reactComponents/README.md",
+      "key": "v-a09498d4",
+      "path": "/React/reactComponents/"
     },
     {
       "title": "导读",
@@ -159,21 +187,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "我是基础 react",
-      "frontmatter": {},
-      "regularPath": "/React/reactBase.html",
-      "relativePath": "React/reactBase.md",
-      "key": "v-31d75ae6",
-      "path": "/React/reactBase.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/home/",
-      "relativePath": "home/README.md",
-      "key": "v-7e56ceeb",
-      "path": "/home/"
-    },
-    {
       "title": "关于Vue下组件引入第三方外部外链Js几种方式",
       "frontmatter": {},
       "regularPath": "/pages/html/html.html",
@@ -217,11 +230,22 @@ export const siteData = {
           "slug": "我只想是试试"
         }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/home/",
+      "relativePath": "home/README.md",
+      "key": "v-7e56ceeb",
+      "path": "/home/"
     }
   ],
   "themeConfig": {
     "searchMaxSuggestions": 10,
     "nav": [
+      {
+        "text": "React 组件",
+        "link": "/React/"
+      },
       {
         "text": "公司内部前端学习",
         "link": "/company/"
@@ -253,6 +277,20 @@ export const siteData = {
             [
               "reactBase.md",
               "react基础"
+            ]
+          ]
+        },
+        {
+          "title": "React 组件",
+          "collapsable": false,
+          "children": [
+            [
+              "reactComponents",
+              "依赖"
+            ],
+            [
+              "reactComponents/echarts.md",
+              "echarts"
             ]
           ]
         }

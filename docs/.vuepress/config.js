@@ -1,10 +1,13 @@
 module.exports = {
   themeConfig: {
     searchMaxSuggestions: 10,
-    nav: [
+    nav: [{
+        text: "React 组件",
+        link: "/React/"
+      },
       {
-        text:"公司内部前端学习",
-        link:'/company/'
+        text: "公司内部前端学习",
+        link: '/company/'
       },
       {
         text: '搭建个人博客',
@@ -32,9 +35,17 @@ module.exports = {
         title: 'react',
         collapsable: false,
         children: [
-          ['reactBase.md','react基础']
+          ['reactBase.md', 'react基础'],
+        ]
+      }, {
+        title: 'React 组件',
+        collapsable:false,
+        children:[
+          ['reactComponents','依赖'],
+          ['reactComponents/echarts.md', 'echarts'],
         ]
       }]
-    }
+    },
+
   }
 }
