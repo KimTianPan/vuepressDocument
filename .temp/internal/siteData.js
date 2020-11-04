@@ -8,13 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "frontmatter": {},
-      "regularPath": "/React/",
-      "relativePath": "React/README.md",
-      "key": "v-6648a1b5",
-      "path": "/React/"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -43,33 +36,94 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "我是基础 react",
+      "title": "组件使用",
       "frontmatter": {},
-      "regularPath": "/React/reactBase.html",
-      "relativePath": "React/reactBase.md",
-      "key": "v-31d75ae6",
-      "path": "/React/reactBase.html"
+      "regularPath": "/React/publicComponent/content-box.html",
+      "relativePath": "React/publicComponent/content-box.md",
+      "key": "v-f4467d4e",
+      "path": "/React/publicComponent/content-box.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "组件使用",
+          "slug": "组件使用"
+        }
+      ]
     },
     {
+      "title": "获取组件地址",
       "frontmatter": {},
-      "regularPath": "/React/reactComponents.html",
-      "relativePath": "React/reactComponents.md",
-      "key": "v-bfdf9974",
-      "path": "/React/reactComponents.html"
+      "regularPath": "/React/",
+      "relativePath": "React/README.md",
+      "key": "v-6648a1b5",
+      "path": "/React/",
+      "headers": [
+        {
+          "level": 3,
+          "title": "获取组件地址",
+          "slug": "获取组件地址-https-github-com-kimtianpan-react-git"
+        }
+      ]
     },
     {
+      "title": "组件使用",
       "frontmatter": {},
-      "regularPath": "/React/reactComponents/echarts.html",
-      "relativePath": "React/reactComponents/echarts.md",
-      "key": "v-8a3ff44e",
-      "path": "/React/reactComponents/echarts.html"
+      "regularPath": "/React/publicComponent/echarts.html",
+      "relativePath": "React/publicComponent/echarts.md",
+      "key": "v-072cc1f9",
+      "path": "/React/publicComponent/echarts.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "组件使用",
+          "slug": "组件使用"
+        }
+      ]
     },
     {
+      "title": "组件使用",
       "frontmatter": {},
-      "regularPath": "/React/reactComponents/",
-      "relativePath": "React/reactComponents/README.md",
-      "key": "v-a09498d4",
-      "path": "/React/reactComponents/"
+      "regularPath": "/React/reactComponent/form.html",
+      "relativePath": "React/reactComponent/form.md",
+      "key": "v-49b0d19a",
+      "path": "/React/reactComponent/form.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "组件使用",
+          "slug": "组件使用"
+        }
+      ]
+    },
+    {
+      "title": "react 中文官网有兴趣自行查阅",
+      "frontmatter": {},
+      "regularPath": "/React/reactBase/reactBase.html",
+      "relativePath": "React/reactBase/reactBase.md",
+      "key": "v-514780f9",
+      "path": "/React/reactBase/reactBase.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "react 中文官网有兴趣自行查阅",
+          "slug": "react-中文官网有兴趣自行查阅-react-官网"
+        }
+      ]
+    },
+    {
+      "title": "组件使用",
+      "frontmatter": {},
+      "regularPath": "/React/reactComponent/user.html",
+      "relativePath": "React/reactComponent/user.md",
+      "key": "v-bdfb3c5a",
+      "path": "/React/reactComponent/user.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "组件使用",
+          "slug": "组件使用"
+        }
+      ]
     },
     {
       "title": "导读",
@@ -105,6 +159,13 @@ export const siteData = {
           "slug": "es6-链接"
         }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/home/",
+      "relativePath": "home/README.md",
+      "key": "v-7e56ceeb",
+      "path": "/home/"
     },
     {
       "title": "前言",
@@ -230,20 +291,13 @@ export const siteData = {
           "slug": "我只想是试试"
         }
       ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/home/",
-      "relativePath": "home/README.md",
-      "key": "v-7e56ceeb",
-      "path": "/home/"
     }
   ],
   "themeConfig": {
     "searchMaxSuggestions": 10,
     "nav": [
       {
-        "text": "React 组件",
+        "text": "React",
         "link": "/React/"
       },
       {
@@ -271,26 +325,40 @@ export const siteData = {
       ],
       "/React/": [
         {
-          "title": "react",
+          "title": "",
           "collapsable": false,
           "children": [
             [
-              "reactBase.md",
-              "react基础"
+              "/React/",
+              "获取地址组件地址"
             ]
           ]
         },
         {
-          "title": "React 组件",
+          "title": "React 公共组件",
           "collapsable": false,
           "children": [
             [
-              "reactComponents",
-              "依赖"
+              "publicComponent/content-box.md",
+              " 容器组件"
             ],
             [
-              "reactComponents/echarts.md",
-              "echarts"
+              "publicComponent/echarts.md",
+              "echarts 组件"
+            ]
+          ]
+        },
+        {
+          "title": "React 业务组件",
+          "collapsable": false,
+          "children": [
+            [
+              "reactComponent/form.md",
+              "包装form"
+            ],
+            [
+              "reactComponent/user.md",
+              "选人控件"
             ]
           ]
         }
